@@ -63,3 +63,36 @@ body {
 	
 	text-align: center;
 }
+
+.about-title {
+	text-align: center;
+}
+
+.advanages {
+	display: flex;
+	flex-wrap: wrap;
+	min-width: 770px;
+}
+
+.advantage-one,
+.advantage-two {
+	width: 33.3%;
+	min-width: 255px;
+}
+
+.advantage-ilustration {
+	width: 66.6%;
+	min-width: 513px;
+}
+
+.reccomendation {
+	width: 33.3%;
+	min-width: 255px;
+}
+
+.advantage-three,
+.advantage-four,
+.advantage-five {
+	width: 33.3%;
+	min-width: 255px;
+}
