@@ -48,7 +48,7 @@ body {
 	text-align: center;
 }
 
-.main-header-logo {
+.main-menu-logo {
 	width: 12%;
 	
 	text-align: center;
@@ -95,4 +95,28 @@ body {
 .advantage-five {
 	width: 33.3%;
 	min-width: 255px;
+}
+
+.search-block {
+	display: flex;
+	flex-direction: column;
+	
+	width: 570px;
+	margin: auto;
+	
+	text-align: center;
+}
+
+.info-block {
+	display: flex;
+	justify-content: space-between;
+	
+	text-align: center;
+}
+
+.teg-info,
+.socials-info,
+.copyright-info {
+	width: 33.3%;
+	min-width: 256px;
 }
