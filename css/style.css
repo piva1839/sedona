@@ -27,6 +27,12 @@ body {
 	background: #f2f2f2;
 }
 
+.clearfix {
+	content: "";
+	display: table;
+	clear: both;
+}
+
 .container {
 	max-width: 1200px;
 	min-width: 768px;
@@ -119,4 +125,21 @@ body {
 .copyright-info {
 	width: 33.3%;
 	min-width: 256px;
+}
+
+/* стили для hotels.html */
+
+.wrapper {
+	width: 1060px;
+	min-width: 768px;
+	margin: 0 auto;
+}
+
+.filter-infrastructure,
+.filter-housing-type {
+	float: left;
+}
+
+.filter-range {
+	float: right;
 }
