@@ -130,16 +130,24 @@ body {
 /* стили для hotels.html */
 
 .wrapper {
-	width: 1060px;
+	max-width: 1060px;
 	min-width: 768px;
 	margin: 0 auto;
 }
 
-.filter-infrastructure,
+.filter-form {
+	display: flex;
+}
+
+.filter-infrastructure {
+	width: 24%;
+}
+
 .filter-housing-type {
-	float: left;
+	width: 24%;
+	margin-right: 15%;
 }
 
 .filter-range {
-	float: right;
+	width: 36%;
 }
