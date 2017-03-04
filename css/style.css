@@ -151,3 +151,35 @@ body {
 .filter-range {
 	width: 36%;
 }
+
+.sorting-block-inner {
+	display: flex;
+}
+
+.sorting-result-value {
+	width: 21%;
+}
+
+.sorting {
+	width: 79%;
+}
+
+.sorting-direction {
+	width: 10%;
+}
+
+.hotel-inner {
+	display: flex;
+}
+
+.hotel-photo {
+	width: 21%;
+}
+
+.hotel-about {
+	width: 58%;
+}
+
+.hotel-rating {
+	width: 21%;
+}
