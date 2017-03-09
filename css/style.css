@@ -63,14 +63,19 @@ body {
 .main-menu-logo img {
 	position: absolute;
 	top: 0;
+	z-index: 1;
 
 	margin-left: -69px;
 }
 
 .welcome-block {
-	min-height: 635px;
+	position: relative;
+	
+	min-height: 510px;
 	
 	background: url("../img/background.jpg") no-repeat;
+	background-size: cover;
+	background-position: 50% 20%;
 }
 
 .welcome-block-inner {
@@ -80,6 +85,15 @@ body {
 	margin: auto;
 	
 	text-align: center;
+}
+
+.welcome-bottom {
+	position: absolute;
+	bottom: 0;
+	
+	display: block;
+	
+	width: 100%;
 }
 
 .about-title {
@@ -197,9 +211,18 @@ body {
 	width: 46px;
 	height: 48px;
 	
-	background: #81b3d2;
+	background: #81b3d2 url("../img/socials_sprite.png") no-repeat;
 	
+	font-size: 0;
 	vertical-align: top;
+}
+
+.fb {
+	background-position: -52px 0;
+}
+
+.vid {
+	background-position: -104px 0;
 }
 
 /* стили для hotels.html */
