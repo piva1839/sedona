@@ -17,7 +17,7 @@ font-family: 'PT Sans Caption', "Arial", sans-serif;
 
 */
 
-html {
+* {
 	box-sizing: border-box;
 }
 
@@ -84,6 +84,11 @@ body {
 .advantage-two {
 	width: 33.3%;
 	min-width: 255px;
+	padding: 50px 5% 55px;
+	
+	background: #81b3d2;
+	
+	text-align: center;
 }
 
 .advantage-bg-one {
@@ -99,13 +104,17 @@ body {
 	min-width: 513px;
 	min-height: 256px;
 	
-	background-size: 100% auto;
+	background-size: 100%;
 	background-position: center;
 }
 
 .reccomendation {
 	width: 33.3%;
 	min-width: 255px;
+	min-height: 330px;
+	padding: 60px 5% 86px;
+	
+	text-align: center;
 }
 
 .advantage-three,
