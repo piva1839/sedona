@@ -86,9 +86,21 @@ body {
 	min-width: 255px;
 }
 
+.advantage-bg-one {
+	background: url("../img/1.jpg") no-repeat;
+}
+
+.advantage-bg-two {
+	background: url("../img/2.jpg") no-repeat;
+}
+
 .advantage-ilustration {
 	width: 66.6%;
 	min-width: 513px;
+	min-height: 256px;
+	
+	background-size: 100% auto;
+	background-position: center;
 }
 
 .reccomendation {
