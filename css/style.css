@@ -60,10 +60,22 @@ body {
 	text-align: center;
 }
 
+.main-menu-logo img {
+	position: absolute;
+	top: 0;
+
+	margin-left: -69px;
+}
+
 .welcome-block {
+	min-height: 635px;
+	
+	background: url("../img/background.jpg") no-repeat;
+}
+
+.welcome-block-inner {
 	display: flex;
 	flex-direction: column;
-	
 	width: 500px;
 	margin: auto;
 	
@@ -117,26 +129,53 @@ body {
 	text-align: center;
 }
 
+.reccomendation-title {
+	display: block;
+}
+
 .advantage-three,
 .advantage-four,
 .advantage-five {
 	width: 33.3%;
 	min-width: 255px;
+	min-height: 254px;
+	padding: 45px 5% 60px;
+	
+	background: #eeeeee;
+	
+	text-align: center;
 }
 
 .search-block {
 	display: flex;
 	flex-direction: column;
 	
-	width: 570px;
-	margin: auto;
+	min-height: 292px;
 	
 	text-align: center;
+}
+
+.search-block-inner {
+	width: 690px;
+	
+	margin: 0 auto;
+	
+	padding: 55px 60px 0 60px;
+}
+
+.map {
+	min-height: 472px;
+	
+	background: url("../img/map.jpg") no-repeat;
+	background-size: 100%;
+	background-position: cover;
 }
 
 .info-block {
 	display: flex;
 	justify-content: space-between;
+	
+	min-height: 120px;
 	
 	text-align: center;
 }
@@ -146,6 +185,21 @@ body {
 .copyright-info {
 	width: 33.3%;
 	min-width: 256px;
+	margin: auto;
+}
+
+.htmlacademy-logo {
+	vertical-align: middle;
+}
+
+.social-icon {
+	display: inline-block;
+	width: 46px;
+	height: 48px;
+	
+	background: #81b3d2;
+	
+	vertical-align: top;
 }
 
 /* стили для hotels.html */
