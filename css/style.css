@@ -110,11 +110,17 @@ body {
 }
 
 .about-title {
+	width: 500px;
+	margin: auto;
+	padding-top: 60px;
+	padding-bottom: 55px;
+	
 	text-align: center;
 }
 
 .about-sedona-slogan {
 	margin: 0;
+	margin-bottom: 33px;
 	padding: 0;
 	
 	font-size: 21px;
@@ -139,7 +145,6 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	min-width: 770px;
-	padding-top: 54px;
 	padding-bottom: 54px;
 }
 
@@ -147,7 +152,8 @@ body {
 .advantage-two {
 	width: 33.3%;
 	min-width: 255px;
-	padding: 50px 5% 55px;
+	
+	padding: 54px 5%;
 	
 	background: #81b3d2;
 	
@@ -156,6 +162,7 @@ body {
 
 .advantage-title {
 	margin: 0;
+	margin-bottom: 24px;
 	padding: 0;
 	
 	font-size: 21px;
@@ -166,7 +173,9 @@ body {
 }
 
 .advantage-number {
+	display: block;
 	margin: 0;
+	margin-bottom: 26px;
 	padding: 0;
 	
 	font-size: 14px;
