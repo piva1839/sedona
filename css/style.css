@@ -300,6 +300,44 @@ body {
 	padding: 55px 60px 0 60px;
 }
 
+.search-title {
+	margin: 0;
+	padding: 0;
+	
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.search-description {
+	margin: 0;
+	padding: 0;
+	
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #333333;
+	text-transform: uppercase;
+}
+
+.search-button {
+	display: inline-block;
+	padding: 30px 140px;
+	
+	background: #766357;
+	
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+	
+	cursor: pointer;
+}
+
 .map {
 	min-height: 472px;
 	
@@ -325,7 +363,27 @@ body {
 	margin: auto;
 }
 
+.visit-by-teg {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	text-decoration: none;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.copyright {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 400;
+	text-decoration: none;
+	color: #000000;
+	text-transform: uppercase;
+}
+
 .htmlacademy-logo {
+	margin-left: 4px;
+	
 	vertical-align: middle;
 }
 
