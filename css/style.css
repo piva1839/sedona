@@ -25,6 +25,8 @@ body {
 	min-width: 768px;
 	
 	background: #f2f2f2;
+	
+	font-family: "PT Sans", "Arial", sans-serif;
 }
 
 .clearfix {
@@ -51,7 +53,13 @@ body {
 	width: 22%;
 	padding: 20px 0;
 	
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 700;
 	text-align: center;
+	color: #000000;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 
 .main-menu-logo {
@@ -81,10 +89,15 @@ body {
 .welcome-block-inner {
 	display: flex;
 	flex-direction: column;
-	width: 500px;
+	width: 458px;
 	margin: auto;
 	
 	text-align: center;
+}
+
+.main-logo {
+	margin-top: 75px;
+	margin-bottom: 81px;
 }
 
 .welcome-bottom {
@@ -100,10 +113,34 @@ body {
 	text-align: center;
 }
 
+.about-sedona-slogan {
+	margin: 0;
+	padding: 0;
+	
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.about-sedona-subslogan {
+	margin: 0;
+	padding: 0;
+	
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #333333;
+	text-transform: uppercase;
+}
+
 .advanages {
 	display: flex;
 	flex-wrap: wrap;
 	min-width: 770px;
+	padding-top: 54px;
+	padding-bottom: 54px;
 }
 
 .advantage-one,
@@ -115,6 +152,39 @@ body {
 	background: #81b3d2;
 	
 	text-align: center;
+}
+
+.advantage-title {
+	margin: 0;
+	padding: 0;
+	
+	font-size: 21px;
+	line-height: 21px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.advantage-number {
+	margin: 0;
+	padding: 0;
+	
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.advantage-description {
+	margin: 0;
+	padding: 0;
+	
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+	color: #ffffff;
+	text-transform: uppercase;
 }
 
 .advantage-bg-one {
@@ -145,6 +215,26 @@ body {
 
 .reccomendation-title {
 	display: block;
+	
+	margin: 0;
+	padding: 0;
+	
+	font-size: 21px;
+	line-height: 21px;
+	font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.reccomendation-description {
+	margin: 0;
+	padding: 0;
+	
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+	color: #333333;
+	text-transform: uppercase;
 }
 
 .advantage-three,
@@ -158,6 +248,39 @@ body {
 	background: #eeeeee;
 	
 	text-align: center;
+}
+
+.advantage-n-title {
+	margin: 0;
+	padding: 0;
+	
+	font-size: 21px;
+	line-height: 21px;
+	font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.advantage-n-number {
+	margin: 0;
+	padding: 0;
+	
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.advantage-n-description {
+	margin: 0;
+	padding: 0;
+	
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+	color: #333333;
+	text-transform: uppercase;
 }
 
 .search-block {
