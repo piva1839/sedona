@@ -233,6 +233,14 @@ body {
 	margin: 0 auto;
 }
 
+.filter-block {
+	min-height: 215px; 
+	
+	background: url("../img/background_2.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
 .filter-form {
 	display: flex;
 }
@@ -248,6 +256,11 @@ body {
 
 .filter-range {
 	width: 36%;
+}
+
+.sorting-block,
+.hotel {
+	border-bottom: 1px solid #e5e5e5;
 }
 
 .sorting-block-inner {
