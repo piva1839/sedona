@@ -51,7 +51,7 @@ body {
 
 .main-menu a {
 	width: 22%;
-	padding: 20px 0;
+	padding: 15px 0;
 	
 	font-size: 14px;
 	line-height: 26px;
@@ -79,7 +79,7 @@ body {
 .welcome-block {
 	position: relative;
 	
-	min-height: 510px;
+	/* min-height: 510px; */
 	
 	background: url("../img/background.jpg") no-repeat;
 	background-size: cover;
@@ -113,14 +113,14 @@ body {
 	width: 500px;
 	margin: auto;
 	padding-top: 60px;
-	padding-bottom: 55px;
+	padding-bottom: 50px;
 	
 	text-align: center;
 }
 
 .about-sedona-slogan {
 	margin: 0;
-	margin-bottom: 33px;
+	margin-bottom: 28px;
 	padding: 0;
 	
 	font-size: 21px;
@@ -175,7 +175,7 @@ body {
 .advantage-number {
 	display: block;
 	margin: 0;
-	margin-bottom: 26px;
+	margin-bottom: 20px;
 	padding: 0;
 	
 	font-size: 14px;
@@ -207,7 +207,7 @@ body {
 .advantage-ilustration {
 	width: 66.6%;
 	min-width: 513px;
-	min-height: 256px;
+	/* min-height: 256px; */
 	
 	background-size: 100%;
 	background-position: center;
@@ -216,8 +216,8 @@ body {
 .reccomendation {
 	width: 33.3%;
 	min-width: 255px;
-	min-height: 330px;
-	padding: 60px 5% 86px;
+	/* min-height: 330px; */
+	padding: 60px 5% 75px;
 	
 	text-align: center;
 }
@@ -226,6 +226,8 @@ body {
 	display: block;
 	
 	margin: 0;
+	margin-top: 25px;
+	margin-bottom: 25px;
 	padding: 0;
 	
 	font-size: 21px;
@@ -251,8 +253,8 @@ body {
 .advantage-five {
 	width: 33.3%;
 	min-width: 255px;
-	min-height: 254px;
-	padding: 45px 5% 60px;
+	/* min-height: 254px; */
+	padding: 50px 5% 55px;
 	
 	background: #eeeeee;
 	
@@ -271,7 +273,10 @@ body {
 }
 
 .advantage-n-number {
+	display: block;
 	margin: 0;
+	margin-top: 25px;
+	margin-bottom: 20px;
 	padding: 0;
 	
 	font-size: 14px;
@@ -296,17 +301,17 @@ body {
 	display: flex;
 	flex-direction: column;
 	
-	min-height: 292px;
+	/* min-height: 292px; */
 	
 	text-align: center;
 }
 
 .search-block-inner {
 	width: 690px;
-	
+	margin: 0;
 	margin: 0 auto;
-	
-	padding: 55px 60px 0 60px;
+	padding: 0;
+	padding: 0 60px;
 }
 
 .search-title {
@@ -322,6 +327,8 @@ body {
 
 .search-description {
 	margin: 0;
+	margin-top: 23px;
+	margin-bottom: 45px;
 	padding: 0;
 	
 	font-size: 14px;
