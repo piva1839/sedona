@@ -79,8 +79,6 @@ body {
 .welcome-block {
 	position: relative;
 	
-	/* min-height: 510px; */
-	
 	background: url("../img/background.jpg") no-repeat;
 	background-size: cover;
 	background-position: 50% 20%;
@@ -207,16 +205,14 @@ body {
 .advantage-ilustration {
 	width: 66.6%;
 	min-width: 513px;
-	/* min-height: 256px; */
 	
-	background-size: 100%;
 	background-position: center;
+	background-size: cover;
 }
 
 .reccomendation {
 	width: 33.3%;
 	min-width: 255px;
-	/* min-height: 330px; */
 	padding: 60px 5% 75px;
 	
 	text-align: center;
@@ -253,7 +249,6 @@ body {
 .advantage-five {
 	width: 33.3%;
 	min-width: 255px;
-	/* min-height: 254px; */
 	padding: 50px 5% 55px;
 	
 	background: #eeeeee;
@@ -300,8 +295,6 @@ body {
 .search-block {
 	display: flex;
 	flex-direction: column;
-	
-	/* min-height: 292px; */
 	
 	text-align: center;
 }
@@ -358,15 +351,15 @@ body {
 	min-height: 472px;
 	
 	background: url("../img/map.jpg") no-repeat;
-	background-size: 100%;
-	background-position: cover;
+	background-size: cover;
+
 }
 
 .info-block {
 	display: flex;
 	justify-content: space-between;
 	
-	min-height: 120px;
+	height: 120px;
 	
 	text-align: center;
 }
