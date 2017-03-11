@@ -460,10 +460,37 @@ body {
 
 .sorting-result-value {
 	width: 21%;
+	
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
 }
 
 .sorting {
 	width: 79%;
+}
+
+.sort {
+	margin: 0;
+	padding: 0;
+	
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 400;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.sort li {
+	display: inline-block;
+	
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 400;
+	color: #b1b1b1;
+	text-transform: uppercase;
 }
 
 .sorting-direction {
@@ -483,6 +510,7 @@ body {
 	border-bottom: 10px solid #cccccc;
 	
 	font-size: 0;
+	vertical-align: top;
 }
 
 .sorted {
@@ -498,16 +526,72 @@ body {
 
 .hotel-photo {
 	width: 21%;
+	margin: auto;
 }
 
 .hotel-about {
 	width: 58%;
+	padding: 27px 0 30px;
+}
+
+.hotel-name {
+	margin: 0;
+	padding: 0;
+	
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.housing-price {
+	margin: 0;
+	margin-top: 10px;
+	margin-bottom: 16px;
+	padding: 0;
+	
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+	color: #333333;
+	text-transform: uppercase;
+}
+
+.hotel-button {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	padding: 5px 17px;
+	
+	background: #99cccc;
+	
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.more {
+	background: #82b4d3;
+}
+
+.reserv {
+	background: #766357;
 }
 
 .hotel-rating {
 	width: 21%;
+	padding-top: 27px;
 	
 	text-align: right;
+}
+
+.hotel-stars {
+	margin: 0;
+	padding: 0;
 }
 
 .hotel-star {
@@ -516,4 +600,18 @@ body {
 	display: inline-block;
 	width: 17px;
   height: 17px;
+}
+
+.hotel-rating-value {
+	display: inline-block;
+	margin-top: 45px;
+	padding: 5px 16px 5px 13px;
+	
+	background: #f2f2f2;
+	
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+	color: #666666;
+	text-transform: uppercase;
 }
