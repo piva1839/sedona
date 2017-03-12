@@ -424,6 +424,10 @@ body {
 	padding: 0 45px;
 }
 
+.filter-block-inner {
+	padding: 30px 0;
+}
+
 .filter-block {
 	min-height: 215px; 
 	
@@ -434,19 +438,109 @@ body {
 
 .filter-form {
 	display: flex;
+	
+	color: #ffffff;
+}
+
+.legend {
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.filter-form input {
+	margin-top: 20px;
+	
+	cursor: pointer;
+}
+
+.filter-form label {
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+	color: #ffffff;
+	text-transform: uppercase;
+	
+	cursor: pointer;
 }
 
 .filter-infrastructure {
 	width: 24%;
+	
+	border: none;
 }
 
 .filter-housing-type {
 	width: 24%;
 	margin-right: 15%;
+	
+	border: none;
 }
 
 .filter-range {
 	width: 36%;
+	
+	border: none;
+}
+
+.value-range {
+	width: 84%;
+	
+	border: 2px solid #ffffff;
+	border-radius: 3px;
+}
+
+.range-from {
+	float: left;
+
+	width: 50%;
+	height: 32px;
+	margin: 5px 0;
+	
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.range-till {
+	float: right;
+
+	width: 50%;
+	height: 32px;
+	margin: 5px 0;
+	
+	border-left: 2px solid #ffffff;
+	
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.range-from input,
+.range-till input {
+	display: inline-block;
+	width: 37px;
+	margin: 0;
+	padding: 0;
+	padding: 6px 0;
+	
+	border: none;
+	background: transparent;
+	
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 .sorting-block,
@@ -515,8 +609,8 @@ body {
 
 .sorting-direction {
 	width: 21%;
-	padding-top: 15px;
 	margin: auto;
+	padding-top: 15px;
 	
 	text-align: right;
 }
