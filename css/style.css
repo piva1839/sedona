@@ -460,6 +460,12 @@ body {
 
 .sorting-result-value {
 	width: 21%;
+}
+
+.sorting-result {
+	margin: 0;
+	padding: 0;
+	padding: 30px 0;
 	
 	font-size: 21px;
 	line-height: 26px;
@@ -469,12 +475,15 @@ body {
 }
 
 .sorting {
-	width: 79%;
+	width: 58%;
+	
+	margin: auto;
 }
 
 .sort {
 	margin: 0;
 	padding: 0;
+	padding-top: 10px;
 	
 	font-size: 12px;
 	line-height: 18px;
@@ -485,16 +494,29 @@ body {
 
 .sort li {
 	display: inline-block;
+	margin-left: 30px;
+	
+	border-bottom: 1px dotted #81b3d2;
 	
 	font-size: 12px;
 	line-height: 18px;
 	font-weight: 400;
 	color: #b1b1b1;
 	text-transform: uppercase;
+	
+	cursor: pointer;
+}
+
+.sort .activ-sorting {
+	border: none;
+	
+	color: #81b3d2;
 }
 
 .sorting-direction {
-	width: 10%;
+	width: 21%;
+	padding-top: 15px;
+	margin: auto;
 	
 	text-align: right;
 }
