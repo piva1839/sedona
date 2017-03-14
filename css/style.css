@@ -468,25 +468,32 @@ body {
 
 .filter-infrastructure {
 	width: 24%;
+	margin: 0;
+	padding: 0;
 	
 	border: none;
 }
 
 .filter-housing-type {
 	width: 24%;
-	margin-right: 15%;
+	margin: 0;
+	margin-right: 22%;
+	padding: 0;
 	
 	border: none;
 }
 
 .filter-range {
-	width: 36%;
+	width: 32%;
+	margin: 0;
+	padding: 0;
 	
 	border: none;
 }
 
 .value-range {
-	width: 84%;
+	width: 100%;
+	margin-top: 10px;
 	
 	border: 2px solid #ffffff;
 	border-radius: 3px;
