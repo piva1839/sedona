@@ -451,12 +451,18 @@ body {
 }
 
 .filter-form input {
+	display: none;
 	margin-top: 20px;
 	
 	cursor: pointer;
 }
 
 .filter-form label {
+	position: relative;
+	
+	display: inline-block;
+	margin-top: 23px;
+	
 	font-size: 14px;
 	line-height: 21px;
 	font-weight: 400;
@@ -464,6 +470,36 @@ body {
 	text-transform: uppercase;
 	
 	cursor: pointer;
+}
+
+.filter-form label::before {
+	content: "";
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	margin-right: 19px;
+	
+	border: 2px solid #ffffff;
+	border-radius: 3px;
+	
+	vertical-align: top;
+}
+
+.filter-form label::after {
+	position: absolute;
+	left: 3px;
+	top: 0;
+	
+	content: "";
+	display: none;
+	width: 22px;
+	height: 17px;
+	
+	background: url("../img/checkbox.png") no-repeat;
+}
+
+.filter-form input:checked + label::after {
+	display: block;
 }
 
 .filter-infrastructure {
@@ -640,10 +676,11 @@ body {
 }
 
 .sorting-result-value {
-	width: 21%;
+	width: 165px;
 }
 
 .sorting-result {
+	width: 165px;
 	margin: 0;
 	padding: 0;
 	padding: 30px 0;
@@ -656,7 +693,7 @@ body {
 }
 
 .sorting {
-	width: 58%;
+	width: 65%;
 	
 	margin: auto;
 }
@@ -695,7 +732,7 @@ body {
 }
 
 .sorting-direction {
-	width: 21%;
+	width: 19.5%;
 	margin: auto;
 	padding-top: 15px;
 	
@@ -728,12 +765,14 @@ body {
 }
 
 .hotel-photo {
-	width: 21%;
-	margin: auto;
+	width: 135px;
+	height: 90px;
+	margin-top: 30px;
+	margin-right: 30px;
 }
 
 .hotel-about {
-	width: 58%;
+	width: 70%;
 	padding: 27px 0 30px;
 }
 
@@ -750,8 +789,8 @@ body {
 
 .housing-price {
 	margin: 0;
-	margin-top: 10px;
-	margin-bottom: 16px;
+	margin-top: 8px;
+	margin-bottom: 12px;
 	padding: 0;
 	
 	font-size: 14px;
@@ -764,8 +803,9 @@ body {
 .hotel-button {
 	display: inline-block;
 	margin: 0;
+	margin-right: 2px;
 	padding: 0;
-	padding: 5px 17px;
+	padding: 3px 17px;
 	
 	background: #99cccc;
 	
