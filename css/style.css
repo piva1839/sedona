@@ -62,6 +62,18 @@ body {
 	text-transform: uppercase;
 }
 
+.main-menu a:hover {
+	color: #81b3d2;
+}
+
+.main-menu a:active {
+	color: #cacaca;
+}
+
+.main-menu .active {
+	color: #766357;
+}
+
 .main-menu-logo {
 	width: 12%;
 	
