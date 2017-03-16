@@ -773,6 +773,16 @@ body {
 	cursor: pointer;
 }
 
+.sort li:hover {
+	color: #81b3d2;
+}
+
+.sort li:active {
+	border: none;
+	
+	color: #000000;
+}
+
 .sort .activ-sorting {
 	border: none;
 	
@@ -833,6 +843,16 @@ body {
 	font-weight: 700;
 	color: #000000;
 	text-transform: uppercase;
+	
+	cursor: pointer;
+}
+
+.hotel-name:hover {
+	color: #81b3d2;
+}
+
+.hotel-name:active {
+	color: #cacaca;
 }
 
 .housing-price {
