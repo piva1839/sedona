@@ -403,9 +403,22 @@ body {
 }
 
 .htmlacademy-logo {
+	display: inline-block;
+	width: 113px;
+	height: 39px;
 	margin-left: 4px;
 	
+	background: url("../img/footer_logo.png") no-repeat;
+	
 	vertical-align: middle;
+}
+
+.htmlacademy-logo:hover {
+	background-position: 0 -48px;
+}
+
+.htmlacademy-logo:active {
+	background-position: 0 -95px;
 }
 
 .social-icon {
@@ -420,11 +433,35 @@ body {
 }
 
 .fb {
-	background-position: -52px 0;
+	background-position: -53px 0;
 }
 
 .vid {
-	background-position: -104px 0;
+	background-position: -105px 0;
+}
+
+.social-icon:hover {
+	background-position: 0px -56px;
+}
+
+.fb:hover {
+	background-position: -53px -56px;
+}
+
+.vid:hover {
+	background-position: -105px -56px;
+}
+
+.social-icon:active {
+	background-position: 0px -112px;
+}
+
+.fb:active {
+	background-position: -53px -112px;
+}
+
+.vid:active {
+	background-position: -105px -112px;
 }
 
 /* стили для hotels.html */
@@ -823,7 +860,7 @@ body {
 	padding: 0;
 	padding: 3px 17px;
 	
-	background: #99cccc;
+	background: #81b3d2;
 	
 	font-size: 14px;
 	line-height: 21px;
@@ -837,8 +874,26 @@ body {
 	background: #82b4d3;
 }
 
+.more:hover {
+	background: #669ec0;
+}
+
+.more:active {
+	background: #5496bd;
+	color: #88b6d1;
+}
+
 .reserv {
 	background: #766357;
+}
+
+.reserv:hover {
+	background: #604e43;
+}
+
+.reserv:active {
+	background: #503e33;
+	color: #857871;
 }
 
 .hotel-rating {
