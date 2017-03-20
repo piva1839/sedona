@@ -581,6 +581,15 @@ body {
 	text-align: left;
 }
 
+.filter-form input:disabled + label::before {
+	border: 2px solid #6a6a6a;
+}
+
+.filter-form input:disabled + label::after {
+	background: url("../img/checkbox.png") no-repeat;
+	background-position: 0 -30px;
+}
+
 .value-range {
 	width: 100%;
 	margin-top: 8px;
@@ -693,8 +702,9 @@ body {
 	cursor: pointer;
 }
 
-.button-wrapper {
-	border: 1px solid red;
+.range-line:hover::before,
+.range-line:hover::after {
+	background: #1c4f80;
 }
 
 .filter-form-button {
@@ -712,6 +722,12 @@ body {
 	text-transform: uppercase;
 	color: #ffffff;
 	text-align: center;
+}
+
+.filter-form-button:hover {
+	background: #ffffff;
+	
+	color: #000000;
 }
 
 .sorting-block,
@@ -809,6 +825,16 @@ body {
 	
 	font-size: 0;
 	vertical-align: top;
+}
+
+.sort-up:hover,
+.sort-down:hover {
+	border-bottom: 10px solid #000000;
+}
+
+.sort-up:active,
+.sort-down:active {
+	border-bottom: 10px solid #81b3d2;
 }
 
 .sorted {
