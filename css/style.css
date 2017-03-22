@@ -343,6 +343,10 @@ body {
 	text-transform: uppercase;
 }
 
+.global-searc-button {
+	position: relative;
+}
+
 .search-button {
 	display: inline-block;
 	padding: 30px 140px;
@@ -359,12 +363,89 @@ body {
 	cursor: pointer;
 }
 
+.modal-search {
+	position: absolute;
+	bottom: -397px;
+	left: 50%;
+	
+	width: 570px;
+	height: 397px;
+	margin-left: -285px;
+	padding: 55px;
+	
+	background: #ffffff;
+}
+
+.search-form {
+	border: 1px solid black;
+	
+	text-align: left;
+}
+
+.search-form label {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.сheck-in-date,
+.check-out-date {
+	margin-bottom: 30px;
+}
+
+.сheck-in-date input,
+.check-out-date input {
+	width: 347px;
+	height: 37px;
+	
+	background: #f2f2f2;
+	border: none;
+}
+
+.сheck-in-date input {
+	margin-left: 15px;
+}
+
+.check-out-date input {
+	margin-left: 11px;
+}
+
+.client-age {
+	margin-bottom: 55px;
+}
+
+.client-age input {
+	width: 115px;
+	height: 37px;
+	
+	background: #f2f2f2;
+	border: none;
+}
+
+.search-form-button {
+	display: block;
+	padding: 15px;
+	
+	background: #81b3d2;
+	
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+	
+	cursor: pointer;
+}
+
 .map {
 	min-height: 472px;
 	
 	background: url("../img/map.jpg") no-repeat;
 	background-size: cover;
-
 }
 
 .info-block {
