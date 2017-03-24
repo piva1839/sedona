@@ -416,11 +416,27 @@ body {
 
 .сheck-in-date input,
 .check-out-date input {
+	position: relative;
 	width: 347px;
 	height: 37px;
 	padding: 13px 40px 13px 15px;
 	
 	border: none;
+	background: #f2f2f2 url("../img/date.png") no-repeat;
+	background-position: 97% 8px;
+}
+
+.сheck-in-date input:hover,
+.check-out-date input:hover {
+	background: #ebebeb url("../img/date.png") no-repeat;
+	background-position: 97% -31px;
+}
+
+.сheck-in-date input:focus,
+.check-out-date input:focus {
+	background: #ffffff url("../img/date.png") no-repeat;
+	background-position: 97% -69px;
+	outline: 2px solid #e5e5e5;
 }
 
 .сheck-in-date input {
@@ -441,6 +457,8 @@ body {
 	padding: 13px 40px;
 	
 	border: none;
+	background: #f2f2f2 url("../img/plus.png") no-repeat;
+	background-position: 85% 13px;
 	
 	text-align: center;
 }
