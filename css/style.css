@@ -398,6 +398,8 @@ body {
 	font-weight: 700;
 	color: #000000;
 	text-transform: uppercase;
+	
+	cursor: pointer;
 }
 
 .search-form input:hover {
@@ -457,10 +459,91 @@ body {
 	padding: 13px 40px;
 	
 	border: none;
-	background: #f2f2f2 url("../img/plus.png") no-repeat;
-	background-position: 85% 13px;
 	
 	text-align: center;
+}
+
+.adults-wrapper,
+.children-wrapper {
+	position: relative;
+	
+	display: inline-block;
+}
+
+.adults-wrapper label::before {
+	content: "";
+	position: absolute;
+	top: 13px;
+	left: 127px;
+	
+	display: inline-block;
+	width: 11px;
+	height: 11px;
+	
+	background: #f2f2f2 url("../img/minus.png") no-repeat;
+	background-position: 50% 4px;
+}
+
+.children-wrapper label::before {
+	content: "";
+	position: absolute;
+	top: 13px;
+	left: 93px;
+	
+	display: inline-block;
+	width: 11px;
+	height: 11px;
+	
+	background: #f2f2f2 url("../img/minus.png") no-repeat;
+	background-position: 50% 4px;
+}
+
+.adults-wrapper label::after {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 200px;
+	
+	display: inline-block;
+	width: 30px;
+	height: 37px;
+	
+	background: #f2f2f2 url("../img/plus.png") no-repeat;
+	background-position: 50% 13px;
+}
+
+.children-wrapper label::after {
+	content: "";
+	position: absolute;
+	top: 13px;
+	left: 166px;
+	
+	display: inline-block;
+	width: 11px;
+	height: 11px;
+	
+	background: #f2f2f2 url("../img/plus.png") no-repeat;
+	background-position: 50% 0;
+}
+
+.adults-wrapper:hover  label::before{
+	background: #ebebeb url("../img/minus.png") no-repeat;
+	background-position: 50% 50%;
+}
+
+.children-wrapper:hover label::before {
+	background: #ebebeb url("../img/minus.png") no-repeat;
+	background-position: 50% 50%;
+}
+
+.adults-wrapper:hover label::after {
+	background: #ebebeb url("../img/plus.png") no-repeat;
+	background-position: 50% 50%;
+}
+
+.children-wrapper:hover label::after {
+	background: #ebebeb url("../img/plus.png") no-repeat;
+	background-position: 50% 50%;
 }
 
 .client-age .adults {
