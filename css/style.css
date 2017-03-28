@@ -368,12 +368,17 @@ body {
 	bottom: -397px;
 	left: 50%;
 	
+	display: none;
 	width: 570px;
 	height: 397px;
 	margin-left: -285px;
 	padding: 55px;
 	
 	background: #ffffff;
+}
+
+.modal-search-show {
+	display: block;
 }
 
 .search-form {
@@ -398,8 +403,6 @@ body {
 	font-weight: 700;
 	color: #000000;
 	text-transform: uppercase;
-	
-	cursor: pointer;
 }
 
 .search-form input:hover {
@@ -473,39 +476,39 @@ body {
 .adults-wrapper label::before {
 	content: "";
 	position: absolute;
-	top: 13px;
-	left: 127px;
+	top: 0px;
+	left: 112px;
 	
 	display: inline-block;
-	width: 11px;
-	height: 11px;
+	width: 37px;
+	height: 37px;
 	
 	background: #f2f2f2 url("../img/minus.png") no-repeat;
-	background-position: 50% 4px;
+	background-position: 50% 17px;
 }
 
 .children-wrapper label::before {
 	content: "";
 	position: absolute;
-	top: 13px;
-	left: 93px;
+	top: 0px;
+	left: 78px;
 	
 	display: inline-block;
-	width: 11px;
-	height: 11px;
+	width: 37px;
+	height: 37px;
 	
 	background: #f2f2f2 url("../img/minus.png") no-repeat;
-	background-position: 50% 4px;
+	background-position: 50% 17px;
 }
 
 .adults-wrapper label::after {
 	content: "";
 	position: absolute;
 	top: 0px;
-	left: 200px;
+	left: 190px;
 	
 	display: inline-block;
-	width: 30px;
+	width: 37px;
 	height: 37px;
 	
 	background: #f2f2f2 url("../img/plus.png") no-repeat;
@@ -515,15 +518,15 @@ body {
 .children-wrapper label::after {
 	content: "";
 	position: absolute;
-	top: 13px;
-	left: 166px;
+	top: 0px;
+	left: 157px;
 	
 	display: inline-block;
-	width: 11px;
-	height: 11px;
+	width: 37px;
+	height: 37px;
 	
 	background: #f2f2f2 url("../img/plus.png") no-repeat;
-	background-position: 50% 0;
+	background-position: 50% 13px;
 }
 
 .adults-wrapper:hover  label::before{
