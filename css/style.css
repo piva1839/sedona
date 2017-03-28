@@ -1,22 +1,3 @@
-/*
-
-font-family: 'PT Sans', "Arial", sans-serif;
-font-family: 'PT Sans Narrow', "Arial", sans-serif;
-font-family: 'PT Sans Caption', "Arial", sans-serif;
-
-@font-face {
-	font-family: "JournalRegular";
-	src: url("journal-webfont.eot");
-	src: url("journal-webfont.eot?#iefix") format("embedded-opentype"),
-	url("journal-webfont.woff") format("woff"),
-	url("journal-webfont.ttf") format("truetype"),
-	url("journal-webfont.svg#JournalRegular") format("svg");
-	font-weight: normal;
-	font-style: normal;
-}
-
-*/
-
 * {
 	box-sizing: border-box;
 }
@@ -41,12 +22,19 @@ body {
 	margin: 0 auto;
 	
 	background: #ffffff;
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
 .main-menu {
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 }
 
 .main-menu a {
@@ -97,8 +85,12 @@ body {
 }
 
 .welcome-block-inner {
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 	width: 458px;
 	margin: auto;
 	
@@ -152,8 +144,12 @@ body {
 }
 
 .advanages {
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
 	min-width: 770px;
 	padding-bottom: 54px;
 }
@@ -215,7 +211,7 @@ body {
 }
 
 .advantage-ilustration {
-	width: 66.6%;
+	width: 66.7%;
 	min-width: 513px;
 	
 	background-position: center;
@@ -305,8 +301,12 @@ body {
 }
 
 .search-block {
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 	
 	text-align: center;
 }
@@ -593,8 +593,12 @@ body {
 }
 
 .info-block {
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	
 	height: 120px;
 	
@@ -711,6 +715,8 @@ body {
 }
 
 .filter-form {
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
 	
 	color: #ffffff;
@@ -961,6 +967,8 @@ body {
 }
 
 .sorting-block-inner {
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
 }
 
@@ -1066,10 +1074,14 @@ body {
 	margin-left: 12px;
 	
 	border-bottom: 10px solid #81b3d2;
-	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	    -ms-transform: rotate(180deg);
+	        transform: rotate(180deg);
 }
 
 .hotel-inner {
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
 }
 
