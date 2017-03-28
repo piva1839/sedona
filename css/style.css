@@ -349,7 +349,7 @@ body {
 
 .search-button {
 	display: inline-block;
-	padding: 30px 140px;
+	padding: 30px 139px;
 	
 	background: #766357;
 	
@@ -610,7 +610,11 @@ body {
 .copyright-info {
 	width: 33.3%;
 	min-width: 256px;
-	margin: auto;
+}
+
+.teg {
+	display: block;
+	margin-top: 50px;
 }
 
 .visit-by-teg {
@@ -622,7 +626,15 @@ body {
 	text-transform: uppercase;
 }
 
+.socials-info-inner {
+	margin-top: 35px;
+}
+
 .copyright {
+	margin: 0;
+	margin-top: 40px;
+	padding: 0;
+	
 	font-size: 14px;
 	line-height: 26px;
 	font-weight: 400;
@@ -654,6 +666,7 @@ body {
 	display: inline-block;
 	width: 46px;
 	height: 48px;
+	margin-right: 3px;
 	
 	background: #81b3d2 url("../img/socials_sprite.png") no-repeat;
 	
