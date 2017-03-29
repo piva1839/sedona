@@ -48,6 +48,8 @@ body {
 	color: #000000;
 	text-decoration: none;
 	text-transform: uppercase;
+	
+	text-align: center;
 }
 
 .main-menu a:hover {
@@ -63,7 +65,7 @@ body {
 }
 
 .main-menu-logo {
-	width: 12%;
+	width: 22%;
 	
 	text-align: center;
 }
