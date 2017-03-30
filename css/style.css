@@ -64,17 +64,19 @@ body {
 	color: #766357;
 }
 
-.main-menu-logo {
-	width: 22%;
-	
-	text-align: center;
+.main-menu {
+	position: relative;
 }
 
 .main-menu-logo img {
 	position: absolute;
 	top: 0;
+	left: 50%;
 	z-index: 1;
-
+	
+	display: block;
+	width: 138px;
+	height: 70px;
 	margin-left: -69px;
 }
 
@@ -1007,7 +1009,7 @@ body {
 .sorting {
 	width: 65%;
 	
-	margin: auto;
+	margin-top: 28px;
 }
 
 .sort {
@@ -1055,8 +1057,7 @@ body {
 
 .sorting-direction {
 	width: 19.5%;
-	margin: auto;
-	padding-top: 15px;
+	padding-top: 43px;
 	
 	text-align: right;
 }
