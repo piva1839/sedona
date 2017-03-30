@@ -316,7 +316,7 @@ body {
 }
 
 .search-block-inner {
-	width: 690px;
+	width: 692px;
 	margin: 0;
 	margin: 0 auto;
 	padding: 0;
@@ -353,7 +353,7 @@ body {
 
 .search-button {
 	display: inline-block;
-	padding: 30px 139px;
+	padding: 30px 140px;
 	
 	background: #766357;
 	
@@ -426,9 +426,9 @@ body {
 .сheck-in-date input,
 .check-out-date input {
 	position: relative;
-	width: 347px;
+	width: 345px;
 	height: 37px;
-	padding: 13px 40px 13px 15px;
+	padding: 6px 40px 6px 15px;
 	
 	border: none;
 	background: #f2f2f2 url("../img/date.png") no-repeat;
@@ -463,7 +463,7 @@ body {
 .client-age input {
 	width: 115px;
 	height: 37px;
-	padding: 13px 40px;
+	padding: 6px 40px;
 	
 	border: none;
 	
@@ -481,7 +481,7 @@ body {
 	content: "";
 	position: absolute;
 	top: 0px;
-	left: 112px;
+	left: 110px;
 	
 	display: inline-block;
 	width: 37px;
@@ -554,7 +554,7 @@ body {
 }
 
 .client-age .adults {
-	margin-left: 37px;
+	margin-left: 35px;
 	margin-right: 34px;
 }
 
