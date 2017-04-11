@@ -106,9 +106,13 @@ body {
 	margin-bottom: 81px;
 }
 
+main {
+	position: relative;
+}
+
 .welcome-bottom {
 	position: absolute;
-	bottom: -1px;
+	top: -57px;
 	
 	display: block;
 	
