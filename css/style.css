@@ -112,7 +112,8 @@ main {
 
 .welcome-bottom {
 	position: absolute;
-	top: -56px;
+	top: -57px;
+	z-index: 20;
 	
 	display: block;
 	border: none;
